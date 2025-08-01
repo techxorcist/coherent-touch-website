@@ -6,6 +6,7 @@
 
 # Keep only the static site
 !static_site/
+!static_site/**/*.html
 static_site/.DS_Store
 
 # System files
