@@ -329,6 +329,35 @@ a:hover {
     margin-bottom: 0.5rem;
 }
 
+.primary-contact {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin: 2rem 0;
+}
+
+.phone-cta {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #51753c;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: 3px solid #51753c;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.phone-cta:hover {
+    background-color: #51753c;
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
 .contact-form {
     background: white;
     padding: 2rem;
