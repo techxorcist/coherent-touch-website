@@ -1,0 +1,18 @@
+# WordPress downloaded files
+*.html
+*_files/
+*.download
+*.php
+
+# Keep only the static site
+!static_site/
+static_site/.DS_Store
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
