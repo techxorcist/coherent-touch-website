@@ -273,6 +273,15 @@ a:hover {
     margin-top: 1rem;
 }
 
+.featured-image.craniosacral-image {
+    width: 50%;
+    height: 50%;
+    max-height: 217px;
+    object-fit: cover;
+    display: block;
+    margin: 1rem auto;
+}
+
 .page-content-text {
     font-size: 1.1rem;
     line-height: 1.8;
