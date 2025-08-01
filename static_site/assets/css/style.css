@@ -275,9 +275,8 @@ a:hover {
 
 .featured-image.craniosacral-image {
     width: 50%;
-    height: 50%;
-    max-height: 217px;
-    object-fit: cover;
+    max-width: 300px; /* Never bigger than this */
+    height: auto; /* Let height adjust naturally */
     display: block;
     margin: 1rem auto;
 }
@@ -1189,6 +1188,6 @@ a:hover {
     
     .rates-sidebar {
         position: static;
-        order: -1; /* Move sidebar above main content on mobile */
+        order: 1; /* Move sidebar below main content on mobile */
     }
 }
