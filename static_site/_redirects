@@ -1,0 +1,17 @@
+# Domain redirects - henrycloudmassage.com to coherenttouch.com
+https://henrycloudmassage.com/*    https://coherenttouch.com/:splat    301!
+http://henrycloudmassage.com/*     https://coherenttouch.com/:splat    301!
+https://www.henrycloudmassage.com/*    https://coherenttouch.com/:splat    301!
+http://www.henrycloudmassage.com/*     https://coherenttouch.com/:splat    301!
+
+# WordPress legacy URL redirects (if needed)
+/?p=*                  /blog/    301
+/wp-content/uploads/*  /assets/images/:splat    301
+
+# Old slug redirects for SEO
+/cranial-sacral.html   /craniosacral.html    301
+/coherent-touch-education.html    /education.html    301
+
+# Force HTTPS for primary domain
+http://coherenttouch.com/*    https://coherenttouch.com/:splat    301!
+https://www.coherenttouch.com/*    https://coherenttouch.com/:splat    301!
