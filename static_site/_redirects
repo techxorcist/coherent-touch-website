@@ -11,6 +11,7 @@ http://www.henrycloudmassage.com/*     https://coherenttouch.com/:splat    301!
 # Old slug redirects for SEO
 /cranial-sacral.html   /craniosacral.html    301
 /coherent-touch-education.html    /education.html    301
+/lymphatic-massage.html    /lymphatic-therapy.html    301
 
 # Force HTTPS for primary domain
 http://coherenttouch.com/*    https://coherenttouch.com/:splat    301!
